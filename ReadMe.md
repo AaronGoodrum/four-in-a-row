@@ -53,3 +53,15 @@
     The event listener should listen for a click event on the #begin-game button.
     The event listener should have a callback function that calls the startGame() method on the newly created Game object.
     Inside the callback function, include the following code in order to hide the start button and show the game board:
+
+## Rendering Spaces
+
+### Requirements for the drawSVGSpace() Method
+
+    This method should receive no arguments.
+    This method should not return anything.
+
+### Assignment
+
+    Add two properties in the Space class constructor method: diameter and radius. Set the value of the diameter property equal to 76. The radius property should be equal to half the value of the diameter property.
+    Create a method inside the Space class called drawSVGSpace() using the requirements and guidelines below.
