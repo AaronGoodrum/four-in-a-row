@@ -47,4 +47,3 @@
     The color parameter should receive a string value of #e59a13
     The id parameter should receive an integer value of 2
     Because the active parameter in the Player constructor method has a default value of false, no argument for the value of active needs to be passed.
-

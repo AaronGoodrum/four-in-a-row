@@ -1,6 +1,8 @@
 class Game {
   constructor() {
+    //new Board object.
     this.board = new Board();
+    //players property will hold an array of two players.
     this.players = this.createPlayers();
     this.ready = false;
   }
