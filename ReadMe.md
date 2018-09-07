@@ -47,3 +47,9 @@
     The color parameter should receive a string value of #e59a13
     The id parameter should receive an integer value of 2
     Because the active parameter in the Player constructor method has a default value of false, no argument for the value of active needs to be passed.
+
+## Requirements and Guidelines for the Event Listener
+
+    The event listener should listen for a click event on the #begin-game button.
+    The event listener should have a callback function that calls the startGame() method on the newly created Game object.
+    Inside the callback function, include the following code in order to hide the start button and show the game board:
